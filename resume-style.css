@@ -1,0 +1,77 @@
+body{
+    background-color: #59B4C3;
+    background-image:url(https://images.unsplash.com/photo-1586281380349-632531db7ed4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    width: 900px;
+    background-color: aliceblue;
+    border: 1px solid #211C6A;
+    border-radius: 20px;
+    box-shadow: 20px 16px  #DFF5FF;
+
+    
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.right{
+    text-align: right;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+}
+
+.boxOne, .boxTwo{
+    border: 1px solid #211C6A;
+    width: 40%;
+    height: auto;
+    padding-left: 20px;
+    margin-left: 20px;
+    text-align: left;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+.skills{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 10px 0;
+
+}
+.skills > pre{
+    width: 400px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 10px 0;
+
+}
+.boxTwo{
+    border: 1px solid #211C6A;
+    width: 60%;
+    padding-right: 20px;
+    margin-right: 20px;
+}
